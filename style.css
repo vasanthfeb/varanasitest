@@ -92,8 +92,8 @@
  }
 
   
-  /* @media only screen and (max-width: 768px) {
-    .all-img{
+  @media only screen and (max-width: 768px) {
+    .long-img{
       width: 100%;
     }
-  } */
+  }
