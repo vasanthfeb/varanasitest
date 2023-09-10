@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Jost&family=Playfair+Display+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Jost&family=Noto+Sans+Tamil&family=Playfair+Display+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
  body{
     font-family: 'Tektur', cursive !important;
  }
@@ -59,7 +60,7 @@
     border-radius: 0.2rem;
   }
   .navbar{
-    background-color: rgb(200, 200, 200) !important;
+    background-color:#44404E !important;
     /* max-height: 72px !important;
     height:72px ; */
   }
@@ -73,3 +74,26 @@
   .img{
     height: 56px;
   }
+  .about-p{
+    text-align: justify;
+  text-justify: inter-word;
+  font-family: 'Poppins', sans-serif;
+ 
+  }
+  .all-img{
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 100%;
+
+  }
+ .long-img{
+  width: 100%;
+  
+ }
+
+  
+  /* @media only screen and (max-width: 768px) {
+    .all-img{
+      width: 100%;
+    }
+  } */
